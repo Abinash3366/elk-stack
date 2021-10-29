@@ -5,7 +5,7 @@ curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.list | sudo tee /etc/a
 
 sudo apt-get update
 sudo apt-get install tailscale
-sudo tailscale up
+sudo tailscale up --authkey "$1"
 
 mkdir beats
 cd beats
