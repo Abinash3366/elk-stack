@@ -43,10 +43,14 @@ This will:
 - Install Tailscale and prompt for authentication
 - Install Packetbeat, Metricbeat and Filebeat
 - Configure all beats to forward data to the central logging server.
+- 
 Runs on any system that uses `apt-get`, e.g Debian or Ubuntu.
+
+*Note: if you have a Tailscale [Auth Key](https://login.tailscale.com/admin/settings/authkeys), include it as the first argument. This will make the script run completely non-interactively. Otherwise, you will need to sign in with your browser.*
+
 ```
 wget "https://raw.githubusercontent.com/shaunakg/elk-stack/main/setup-node.sh"
-sudo sh setup-node.sh
+sudo sh setup-node.sh "$OPTIONAL_AUTH_KEY"
 ```
 
 #### To configure an edge node
