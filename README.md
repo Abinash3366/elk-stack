@@ -8,8 +8,8 @@ It uses [Tailscale](https://tailscale.com) to handle the management of a VPN bet
 
 Before usage, fork this repository (it's useless otherwise).
 Choose a domain name and edit the following files with the domain name:
-- [`setup-main.sh`](./blob/main/setup-main.sh)
-- [`beat-configs/*.yml`](./tree/main/beat-configs) (every file - do <kbd>CTRL+F</kbd> for `k.odin.srg.id.au` and replace it)
+- [`setup-main.sh`](./setup-main.sh)
+- [`beat-configs/*.yml`](./beat-configs/) (every file - do <kbd>CTRL+F</kbd> for `k.odin.srg.id.au` and replace it)
 
 ### Setup central stack
 
