@@ -45,8 +45,8 @@ This will:
 - Configure all beats to forward data to the central logging server.
 Runs on any system that uses `apt-get`, e.g Debian or Ubuntu.
 ```
-wget "https://raw.githubusercontent.com/shaunakg/elk-stack/main/setup.sh"
-sudo sh setup.sh
+wget "https://raw.githubusercontent.com/shaunakg/elk-stack/main/setup-node.sh"
+sudo sh setup-node.sh
 ```
 
 #### To configure an edge node
