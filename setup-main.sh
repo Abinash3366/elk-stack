@@ -5,7 +5,7 @@
 #   - Docker Compose
 
 # Server base URL with NO TRAILING SLASH
-SERVER_BASEURL="http://k.odin.srg.id.au"
+SERVER_BASEURL="http://bayou.ars.gg/"
 
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.gpg | sudo apt-key add -
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.list | sudo tee /etc/apt/sources.list.d/tailscale.list
